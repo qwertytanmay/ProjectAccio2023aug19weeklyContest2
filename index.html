@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navi" id="navi">
+        <div id="navL">
+            <h4 id="head1">Library System</h4>
+        </div>
+        <div id="navR">
+            <a href="#tableDiv">Books</a>
+            <a href="#formDiv">Register</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Logout</a>
+        </div>    
+    </nav>
+    <div id="container" class="container">
+        <div id="tableDiv">
+            <table id="table1">
+                <caption>Books</caption>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="#">Airborn</a>
+                        <table id="tableIn1">
+                            <tr>
+                                <td>Publication Date: 1995</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 258</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123-9968480123</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>C Jacob</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="#">Acemedellie</a>
+                        <table id="tableIn1">
+                            <tr>
+                                <td>Publication Date: 2003</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 588</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123-7855890123</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Mc Fallense</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>
+                        <a href="#">Mind Roberry</a>
+                        <table id="tableIn1">
+                            <tr>
+                                <td>Publication Date: 2012</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 612</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:859-8954780123</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Bindre Rikosev</td>
+                    <td>Genre 1</td>
+                    <td>Not Available</td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>
+                        <a href="#">Tree shrink</a>
+                        <table id="tableIn1">
+                            <tr>
+                                <td>Publication Date: 2003</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 920</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:556-7854780123</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Joven Foley</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>
+                        <a href="#">Cosmic relations</a>
+                        <table id="tableIn1">
+                            <tr>
+                                <td>Publication Date: 2016</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 871</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:524-7854780123</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Hume St. Bennard</td>
+                    <td>Genre 1</td>
+                    <td>Not Available</td>
+                </tr>
+            </table>
+        </div>
+        <div id="formDiv">
+            <p id="formHead">Register</p>
+            <form action="#">
+                <div id="formEntryDiv">
+                    <label for="fName">First name:</label><br>
+                    <input type="text" id="fName" name="fName" required></input><br>
+                    <label for="lName">Last name:</label><br>
+                    <input type="text" id="lName" name="lName" required></input><br>
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob" required></input><br>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" maxlength="3" required></input><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required></input><br>
+                    <label for="pwd">Password:</label><br>
+                    <input type="password" id="pwd" name="cPwd" required></input><br>
+                    <label for="cPwd">Confirm password:</label><br>
+                    <input type="password" id="cPwd" name="cPwd" required></input><br>
+                    </div>
+                    <div id="formSubmitDiv">
+                    <label for="submit"></label>
+                    <button type="submit" id="btn" name="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

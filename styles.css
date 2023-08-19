@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+/* ---------------------------------------------------- */
+
+.navi{
+    width: 100vw;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#head1{
+    font-size: 20px;
+    padding-left: 60px;
+}
+#navR{
+    padding-right: 50px;
+}
+#navR>a{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.navi>section{
+    padding: 10px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+/* ------------------------------------------------------- */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#tableDiv{
+    width: 600px;
+    height: auto;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(156, 156, 156);
+}
+table{
+    text-align:left;
+    vertical-align: middle;
+    border: 1px solid #e2e2e2;
+    border-collapse: collapse;
+}
+tr{
+    border: 1px solid #e2e2e2;
+}
+td{
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+}
+table>caption{
+    text-align: left;
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* -------------------------------------------------------- */
+#formDiv{
+    width: 600px;
+    height: auto;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(156, 156, 156);
+}
+#formHead{
+    text-align: left;
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+label{
+    /* display: block; */
+    /* margin-top: 1px; */
+    /* margin-bottom: 3px; */
+    /* padding-bottom: 10px; */
+}
+input{
+    width: 590px;
+    border: 1;
+}
+#btn{
+    /* padding-top: 10px; */
+    width: 595px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#btn:hover{
+    background-color: rgb(34, 33, 33);
+}
